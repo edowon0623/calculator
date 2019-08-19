@@ -69,8 +69,8 @@ public class CalculatorTest {
     @Test
     public void test_양수곱셈() {
         Calculator calc = new Calculator();
-        int result = calc.add(5, 4);
+        int result = calc.add(5, 5);
 
-        assertEquals("두곱셈의 값은 20이어야 합니다.", 20, result);
+        assertEquals("두곱셈의 값은 25이어야 합니다.", 20, result);
     }
 }
