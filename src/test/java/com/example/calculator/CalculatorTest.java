@@ -61,9 +61,9 @@ public class CalculatorTest {
     @Test
     public void test_양수뺄셈() {
         Calculator calc = new Calculator();
-        int result = calc.subtract(5, 4);
+        int result = calc.subtract(10, 5);
 
-        assertEquals("두뺄셈의 차는 1이어야 합니다.", 1, result);
+        assertEquals("두뺄셈의 차는 5이어야 합니다.", 1, result);
     }
 
     @Test
