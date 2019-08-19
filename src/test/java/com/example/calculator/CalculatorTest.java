@@ -63,7 +63,7 @@ public class CalculatorTest {
         Calculator calc = new Calculator();
         int result = calc.subtract(20, 10);
 
-        assertEquals("두뺄셈의 차는 10이어야 합니다.", 1, result);
+        assertEquals("두뺄셈의 차는 5이어야 합니다.", 1, result);
     }
 
     @Test
